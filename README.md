@@ -97,10 +97,10 @@ Streamlit Deployment
 
 | Metric | Score |
 |---------|-------|
-| 🎯 Accuracy | **0.75%** |
-| 🎯 Precision | **0.35%** |
-| 🎯 Recall | **0.65%** |
-| 🎯 F1 Score | **0.46%** |
+| 🎯 Accuracy | **75%** |
+| 🎯 Precision | **35%** |
+| 🎯 Recall | **65%** |
+| 🎯 F1 Score | **46%** |
 
 ---
 
