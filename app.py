@@ -2,18 +2,12 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-# ==========================
-# Page Config
-# ==========================
 st.set_page_config(
     page_title="Employee Attrition Predictor",
     page_icon="📊",
     layout="wide"
 )
 
-# ==========================
-# Load Models
-# ==========================
 model = pickle.load(open("model/best_model.pkl","rb"))
 encoder = pickle.load(open("model/encoder.pkl","rb"))
 scaler = pickle.load(open("model/scaler.pkl","rb"))
